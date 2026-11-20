@@ -47,13 +47,16 @@ across six states: Borno, Yobe, Adamawa, Zamfara, Katsina and Sokoto.
 ## Selected results
 
 - Clean water access ranges from about 45% (Adamawa) to about 70% (Katsina).
-  See `outputs/clean_water_by_state.png`.
+![Clean water access by state](outputs/clean_water_by_state.png)
 - Average meals yesterday: women 1.75, men 1.69. This difference is very
   small, so no meaningful gender difference should be claimed.
-  See `outputs/meals_by_gender.png`.
+![Average meals by gender](outputs/meals_by_gender.png)
+![Households eating fewer than 2 meals](outputs/meals_by_state.png)
 - 22 of 300 households have missing income, from 2.2% (Sokoto) to 14.5%
   (Zamfara). The counts are small, so state differences should be read
   cautiously.
+- “A t-test found no meaningful difference in meals by gender (p = 0.5572)”.
+   Replace the bracket with your real number.
 
 ## Handling missing data
 
@@ -66,10 +69,10 @@ across six states: Borno, Yobe, Adamawa, Zamfara, Katsina and Sokoto.
 
 ## How to run
 
-1. Install R and RStudio.
-2. Install the packages: `install.packages("tidyverse")`
-3. Open `household_survey_analysis.R`, set the working directory to this
-   folder and run the script. Charts are saved in `outputs/`.
+1. Install RStudio.
+2. Open Survey Analysis.Rproj in RStudio
+3. Install the packages: `install.packages("tidyverse")`
+4. Run `household_survey_analysis.R`.
 
 ## Tools
 
@@ -78,4 +81,4 @@ R, tidyverse (readr, dplyr, stringr, lubridate), ggplot2
 ## Author
 
 George Anya, Abuja, Nigeria
-www.linkedin.com/in/georgeulah
+https://www.linkedin.com/in/georgeulah
