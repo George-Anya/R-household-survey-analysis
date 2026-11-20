@@ -1,0 +1,5 @@
+step,count
+Raw rows,312
+Duplicate submissions removed,12
+Household sizes above 30 set to missing,4
+Rows in clean dataset,300
